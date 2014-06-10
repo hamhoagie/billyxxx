@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Project Name</title>
+        <title>BILLY XXX</title>
         <meta name="description" content="">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
@@ -35,11 +35,36 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
  
-        <div class="block-grid">
-            {% block content %}
-            {% endblock %}
-        </div>
+      
+            
+            <div class="row">
+                <div class="small-offset-4 columns">
+                    <h1>BILLY XXX</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-5 small-offset-4 columns">
+                    <h6>RECENT WORK</h6>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-4 columns">
+                    {% include "leftnav.html" %}
+                </div>
+                
+                <div class="small-8 columns">
+
+                    {% block content %}
+                    {% endblock %}
+                
+                </div>
+            </div>
+
         
+       
+
  
         <!-- JavaScript libraries -->
         <script src="http://code.jquery.com/jquery.js"></script>
