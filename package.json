@@ -1,0 +1,23 @@
+{
+  "name": "billyxxx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamhoagie/billyxxx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamhoagie/billyxxx/issues"
+  },
+  "homepage": "https://github.com/hamhoagie/billyxxx#readme"
+}
